@@ -1,5 +1,35 @@
 /* Shared styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+}
+
+/* header related styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    background-image: url(../images/pngwing\ 10.png);
+    padding: 240px 240px 240px 240px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
