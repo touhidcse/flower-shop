@@ -69,3 +69,9 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+.feature-flower-description-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 240px 20px 240px;
+    text-decoration: underline;
+}
