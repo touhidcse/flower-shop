@@ -23,6 +23,7 @@ body {
     padding: 10px 40px 10px 40px;
 }
 
+
 /* header related styles */
 header {
     background-color: rgba(229, 84, 115, 0.10);
@@ -55,6 +56,7 @@ header {
 .about-us {
     /* margin: 100px 0px 45px 0px; */
     text-align: center;
+    background-color: rgba(229, 84, 115, 0.10);
 }
 
 .about-us-title {
@@ -109,6 +111,8 @@ header {
 #flower-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    padding-top: 5%;
+
 }
 
 #flower-2 {
