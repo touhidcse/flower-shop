@@ -3,9 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
-.shared-margin{
+
+.shared-margin {
     margin: 2% 10%;
 }
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -178,9 +180,10 @@ header {
 }
 
 /* instagram-related styles */
-.instagram-part-container{
+.instagram-part-container {
     margin: 100px 150px 45px 150px;
 }
+
 .instagram-header {
     color: #272727;
     text-align: center;
@@ -196,8 +199,50 @@ header {
     font-weight: 400;
     line-height: 30px;
 }
-.instagram-part-pic{
+
+.instagram-part-pic {
     display: flex;
     gap: 5px;
     justify-content: center;
+}
+
+/* Subscribe related styles */
+.subscribe-part-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subscribe-part-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.subscribe-part-container {
+    background-image: url(../images/Rectangle\ 9.png);
+    padding: 100px 100px;
+}
+
+.subscribe-part-button {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
