@@ -46,18 +46,21 @@ header {
 .shop-now {
     margin-bottom: 160px;
 }
+
 /* About us related styles */
-.about-us{
-    margin: 180px 0px 45px 0px;
+.about-us {
+    margin: 100px 0px 45px 0px;
     text-align: center;
 }
-.about-us-title{
+
+.about-us-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-.about-us-description{
+
+.about-us-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -65,9 +68,10 @@ header {
     line-height: 30px;
 
 }
+
 /* Featured flower styles */
 .featured-flower {
-    margin: 180px 150px 45px 150px;
+    margin: 100px 150px 45px 150px;
     /* text-align: center; */
 }
 
@@ -80,19 +84,21 @@ header {
 
 .featured-flower-description {
     max-width: 600px;
-    margin-left: 260px;
+    margin-left: 280px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .featured-flower-pic-container {
     display: flex;
     justify-content: space-between;
     padding: 20px 240px 20px 240px;
-    margin-top: ;
+    margin: 0px 50px;
     border-radius: 300px 300px 0px 0px;
     /* background: rgba(167, 33, 98, 0.15); */
     gap: 10px;
@@ -123,4 +129,50 @@ header {
 /* Service related styles */
 .services-container {
     display: flex;
+    padding: 20px 240px 20px 240px;
+    margin-top: 100px;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+/* sign up related styles */
+.sign-up-container {
+    display: flex;
+    padding: 100px 150px 45px 150px;
+    margin-top: 100px;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.sign-up-text-part-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 40%;
+}
+
+.sign-up-text-part-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+
+.sign-up-button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.sign-up-image-part {
+    /* padding: 0% 0% 50% 0%; */
+    width: 30%;
+    height: 40%;
+    flex-shrink: 0;
 }
