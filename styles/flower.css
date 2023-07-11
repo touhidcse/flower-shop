@@ -3,7 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+.shared-margin{
+    margin: 2% 10%;
+}
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -49,7 +51,7 @@ header {
 
 /* About us related styles */
 .about-us {
-    margin: 100px 0px 45px 0px;
+    /* margin: 100px 0px 45px 0px; */
     text-align: center;
 }
 
@@ -83,22 +85,20 @@ header {
 }
 
 .featured-flower-description {
-    max-width: 600px;
-    margin-left: 280px;
+    /* max-width: 600px; */
+    /* margin-left: 280px; */
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    display: flex;
-    justify-content: center;
 }
 
 .featured-flower-pic-container {
     display: flex;
     justify-content: space-between;
     padding: 20px 240px 20px 240px;
-    margin: 0px 50px;
+    /* margin: 0px 50px; */
     border-radius: 300px 300px 0px 0px;
     /* background: rgba(167, 33, 98, 0.15); */
     gap: 10px;
@@ -130,7 +130,7 @@ header {
 .services-container {
     display: flex;
     padding: 20px 240px 20px 240px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     justify-content: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -167,7 +167,7 @@ header {
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
-    
+
 }
 
 .sign-up-image-part {
@@ -175,4 +175,29 @@ header {
     width: 30%;
     height: 40%;
     flex-shrink: 0;
+}
+
+/* instagram-related styles */
+.instagram-part-container{
+    margin: 100px 150px 45px 150px;
+}
+.instagram-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.instagram-part-pic{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
 }
