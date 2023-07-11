@@ -48,10 +48,19 @@ header {
 }
 
 /* Featured flower styles */
+.featured-flower{
+    margin: 180px 0px 45px 0px;
+    text-align: center;
+}
+.featured-flower-description{
+    max-width: 600px;
+    margin-left: 450px;
+}
 .featured-flower-pic-container {
     display: flex;
     justify-content: space-between;
     padding: 20px 240px 20px 240px;
+    margin-top: ;
     border-radius: 300px 300px 0px 0px;
     /* background: rgba(167, 33, 98, 0.15); */
     gap: 10px;
@@ -74,4 +83,9 @@ header {
     justify-content: space-around;
     padding: 20px 240px 20px 240px;
     text-decoration: underline;
+}
+
+/* Service related styles */
+.services-container{
+    display: flex;
 }
